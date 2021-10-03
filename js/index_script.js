@@ -51,4 +51,4 @@ $(document).ready(function () {
       function showMsg(){
           var name = prompt("what's your name ?", "Name");
           alert("Hi "+ name + " ! Thank you for visiting my Website, Resume and message box currently not available, I am working on it.");
-      }
+      };
