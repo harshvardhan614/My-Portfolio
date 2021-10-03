@@ -76,7 +76,19 @@
       width: 300px ;
      
    }
-   
+
+   /* skill content part  */
+   .skills .column .cllg{
+      font-size: 20px;
+   }
+
+   .skills .skills-content .deg {
+      font-size: 16px;
+   }
+
+   .skills .skills-content .date {
+      font-size: 14px;
+   }
 }  
 
 @media (max-width: 880px){
@@ -194,15 +206,7 @@
    .contact .heading::before   {
       font-size: 70px;
    }
-
-   .skills .column .cllg {
-      font-size: 22px;
-   }
-
-   .skills .skills-content .deg {
-      font-size: 18px;
-   }
-
+    
    .skills #heading-2::before,
    .project .heading::before {
       font-size: 75px;

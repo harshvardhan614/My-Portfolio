@@ -33,7 +33,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* common css parts  */
+/* common css part styling  */
 .max-width{
     max-width: 1300px;
     padding: 0 30px;
@@ -133,14 +133,14 @@ section{
 }
 
 /*  navbar logo  */
-            .navbar.sticky .logo a::before{
-               border-top: 4px solid #fff;
-               border-left: 4px solid #fff;
-            }
-            .navbar.sticky .logo a::after{
-               border-bottom: 4px solid #fff;
-               border-right: 4px solid #fff;
-            }
+ .navbar.sticky .logo a::before{
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+ }
+ .navbar.sticky .logo a::after{
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+ }
 
 .navbar .menu li{  
     display: inline-block;
@@ -184,7 +184,7 @@ section{
 
 .navbar .max-width .menu-btn.border {
     position: fixed;
-    top: 10px;    
+    top: 15px;    
 }
 
 .navbar .max-width .menu-btn.border img{
@@ -372,15 +372,15 @@ section{
 
 .skills .column .cllg{
     font-size: 25px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     font-weight: 500;
      color: #080A52;
 }
 
 .skills .skills-content .deg{
     font-size: 20px;
-    margin-bottom: 5px;
-    font-weight: 700;
+    margin-left: 5px;
+    font-weight: 300;
      color: #302e4d;
 }
 
