@@ -41,4 +41,14 @@ $(document).ready(function () {
             sidebar.style.right = "-230px";
             menus.src = "data/menu.png";
           }
-        };
+        };      
+
+      // script for buttons 
+      var clickShow = document.getElementById('unavailable');
+      clickShow.addEventListener('click', showMsg);
+      var click = document.getElementById('boxbtn');
+      click.addEventListener('click', showMsg);
+      function showMsg(){
+          var name = prompt("what's your name ?", "Name");
+          alert("Hi "+ name + " ! Thank you for visiting my Website, Resume and message box currently not available, I am working on it.");
+      }
