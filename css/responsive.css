@@ -127,7 +127,7 @@
    }
 
    .skills .skills-content .column{
-      width: 80% ;
+      width: 85% ;
    }
 
    .left{
@@ -288,7 +288,7 @@
 }
 
 .skills .column .cllg {
-   font-size: 18px;
+   font-size: 16px;
 }
 
 .skills .skills-content .deg {
@@ -297,7 +297,7 @@
 
 .skills #heading-2::before,
 .project .heading::before {
-   font-size: 55px;
+   font-size: 50px;
 }
 
 .contact .contact-content .left .icons {  
