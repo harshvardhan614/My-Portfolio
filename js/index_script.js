@@ -13,13 +13,13 @@ $(document).ready(function () {
   
     // typing animation script
   var typed = new Typed(".typing", {
-    strings: ["Web developer", "Blogger", "Designer", "Engineer"],
+    strings: ["Web developer", "Web Designer", "UX/UI Designer", "Engineer"],
     typeSpeed: 110,
     backSpeed: 60,
     loop: true,
   });
   var typed = new Typed(".typing-2", {
-    strings: ["Web developer", "Blogger", "Designer", "Engineer"],
+    strings: ["Web developer", "Web Designer", "UX/UI Designer", "Engineer"],
     typeSpeed: 110,
     backSpeed: 60,
     loop: true,
@@ -44,11 +44,11 @@ $(document).ready(function () {
         };      
 
       // script for buttons 
-      var clickShow = document.getElementById('unavailable');
-      clickShow.addEventListener('click', showMsg);
-      var click = document.getElementById('boxbtn');
-      click.addEventListener('click', showMsg);
-      function showMsg(){
-          var name = prompt("what's your name ?", "Name");
-          alert("Hi "+ name + " ! Thank you for visiting my Website, Resume and message box currently not available, I am working on it.");
-      };
+      // var clickShow = document.getElementById('unavailable');
+      // clickShow.addEventListener('click', showMsg);
+      // var click = document.getElementById('boxbtn');
+      // click.addEventListener('click', showMsg);
+      // function showMsg(){
+      //     var name = prompt("what's your name ?", "Name");
+      //     alert("Hi "+ name + " ! Thank you for visiting my Website, Resume and message box currently not available, I am working on it.");
+      // };
